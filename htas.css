@@ -1,0 +1,52 @@
+<style>
+    /* Styling for the entire page */
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    
+    /* Styling for the heading */
+    h1 {
+        color: #333;
+    }
+
+    /* Styling for the input field */
+    input[type="text"] {
+        width: 70%;
+        padding: 8px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+    }
+
+    /* Styling for the "Add" button */
+    button {
+        padding: 8px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Hover effect for the button */
+    button:hover {
+        background-color: #000000;
+    }
+
+    /* Styling for the task list */
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    /* Styling for individual tasks (including completed ones) */
+    li {
+        margin: 10px 0;
+        cursor: pointer;
+    }
+
+    /* Styling for completed tasks */
+    li.completed {
+        text-decoration: line-through;
+        color: #888;
+    }
+</style> 
